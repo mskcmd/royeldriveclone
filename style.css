@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nevbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+   padding: .5rem 5rem;
+   box-shadow: 5px 5px 20px rgb(53, 53, 54);
+   background-color: black;
+   color: #fffbfb;
+   
+
+}
+.navbar-brand{
+    font-size: 60px;
+    font-weight:600 ;
+    color: rgb(8, 186, 8) !important;
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(36, 175, 36);
+
+}
+
+.box img{
+   width: 50px; 
+   height: 50px;
+   margin-top: 10px;
+   margin-left: -70px;
+}
+.sing button{
+    margin-right: -80px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(img/pexels-mike-bird-120049.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    flex-direction: column;
+    
+}
+#home h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 1px 0px #CCC,
+                 0px 2px 0px rgb(38, 38, 38),
+                 0px 3px 0px #302e2e,
+                 0px 4px 0px #312e2e,
+                 0px 5px 0px #490202;  
+                  
+}
+#home p{
+    font-size:15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+#home .input-group{
+    width: 30%;
+    height: 35px;
+}
+.signin{
+    background: rgb(10, 89, 10)!important;
+    color: white !important;
+    box-shadow: 2px 4px 5px ,rgba(0,0,0.5);
+}
+#about{
+    background-color: linear-gradient(to right #ea1d6f,#d05586);
+}
+#about h1{
+    font-weight: 800;
+}
+.row img{
+    width: 50%;
+    height: 300px;
+    margin: 100px;
+    margin-top: 150px;
+
+}
+#product{
+    background-color: #060606;
+    border-radius: 20px;
+    
+}
+#product h1{
+    font-size: 50px;
+    color: #fffbfb;
+   
+}
+
+.card{
+   width: 300px; 
+   max-height: 250px;
+   background-color: white;
+   border: none;
+   box-shadow:  15px 20px 20px rgba(0,0,0,.3)
+                 inset 4px 4px 10px rgb(130, 129, 129) ;
+    border-radius: 40px;
+    overflow: hidden;
+    justify-content: center;
+    margin: 20px 60px;
+    
+}
+#product img{
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+}
+.card-body{
+    margin-top: -110px;
+
+   
+
+}
+h5{
+    margin-top: 10px;
+}
+.card:hover{
+    opacity: 0.8;
+    background-color: #060606;
+    color: aqua;
+    transition:0;
+
+}
+.card img:hover{
+    opacity: 0.8;
+    width: 300px;
+    height: 200px;
+
+}
+#contact{
+    background-image:linear-gradient(rgba(139, 136, 136, 0.3),rgba(124, 122, 122, 0.4)),url(img/luxurious-car-parked-highway-with-illuminated-headlight-sunset.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background: black;
+    margin-top: -30;
+    text-align: center;
+    color: wheat;
+    padding: 3px;
+}
